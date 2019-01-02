@@ -1,0 +1,37 @@
+/* Made by Ben Foster :) 
+Feel free to take inspiration but don't copy directly please
+*/
+
+/* Masters */
+body {
+    margin: 0;
+    background-color: black;
+}
+body>* {
+    padding: 10px;
+    display: block;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+/* Navigation */
+.bf-nav {padding: 10px}
+.bf-nav>* {
+    vertical-align: middle;
+    height: 56px;
+}
+.logo {float: left}
+.links {float: right}
+.bf-nav div>* {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+.logo img {height: 56px}
+/* Custom Elements */
+.bf-box {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
